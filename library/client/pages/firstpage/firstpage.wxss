@@ -1,0 +1,18 @@
+/* pages/firstpage/firstpage.wxss */
+view{
+  width: 100%;
+  height:100%;
+  display: flex;
+  justify-content: center;
+}
+
+.yantaotingyuyue{
+  width: 750rpx;
+  height: 600rpx;
+}
+
+.yuyuechaxun{
+  width: 750rpx;
+  height: 500rpx;
+}
+

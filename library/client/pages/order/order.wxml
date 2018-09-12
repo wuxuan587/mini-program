@@ -1,0 +1,11 @@
+<view class="section_title">选择预约日期</view>
+<picker mode="date" value="{{date}}" start="2018-03-01" end="2028-01-01" bindchange="bindDateChange">
+  <view>当前选择：{{date}}</view>
+</picker>
+<view class="section_title">选择预约时间：</view>
+<picker mode="time" value="{{time1}}" start="09:00" end="22:00" bindchange="bindTimeChange1">
+  <view>开始时间：{{time1}}</view>
+</picker>
+<picker mode="time" value="{{time2}}" start="09:00" end="22:00" bindchange="bindTimeChange2">
+  <view>结束时间：{{time2}} </view>
+</picker>

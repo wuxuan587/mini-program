@@ -1,0 +1,21 @@
+<view>
+    <text>
+        用户名:
+    </text>
+        <input name="username" type="text" placeholder="请输入你的用户名" value="{{username}}" bindchange="bindregisteruserchange"></input>
+    <text>
+        邮箱:
+    </text>
+        <input name="email" type="text" placeholder="请输入你注册时使用的邮箱" value="{{email}}" bindchange="bindemailchange"></input> 
+    <text>
+        密码:
+    </text>
+        <input name="password1" type="text" password="True" placeholder="请输入你的新密码" value="{{password1}}" bindchange="bindregisterpd1change"></input> 
+    <text>
+        确认密码:
+    </text>
+        <input name="password2" type="text" password="True" placeholder="请再次输入你的新密码" value="{{password2}}" bindchange="bindregisterpd2change"></input>
+    <button bindtap="submit_key">
+        提交
+    </button>
+</view>

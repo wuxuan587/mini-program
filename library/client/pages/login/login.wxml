@@ -1,0 +1,33 @@
+<view class="login_page">
+  <image class="Entrance_image" src="{{imageSrc1}}" ></image>
+    <view class="login_account">
+      <text class="left">用户名:</text>
+            <input class="inner" name="username" type="text" placeholder="请输入你的用户名" value="{{username}}" bindchange="binduserchange" confirm-type="next"></input>
+    </view>
+    <view class="login_tab">
+        <text class="left">密码:
+        </text>
+            <input class="inner" name="password" type="text" password="True" placeholder="请输入你的密码" value="{{password}}" bindchange="bindpasswordchange"></input> 
+    </view> 
+    <button bindtap="login_key">
+        登录
+    </button>
+    <button bindtap="reset_key">
+        重置
+    </button>
+    <navigator url="../register/register">
+        <button>
+            注册
+        </button>
+    </navigator>
+    <navigator url="../forgetpw/forgetpw">
+        <button>
+            忘记密码
+        </button> 
+    </navigator>
+    <navigator url="../visit/visit">
+        <button>
+            游客模式
+        </button> 
+    </navigator>
+</view>

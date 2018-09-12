@@ -1,0 +1,1 @@
+<button bindtap="bindSearchChange">按钮</button>

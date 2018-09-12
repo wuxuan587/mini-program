@@ -1,0 +1,67 @@
+<view class="main">
+  <image class="yantaokongjianyuyue" src="{{imageSrc4}}">
+  </image>
+  <view class="order_name">
+    <text>
+      预约人姓名：
+    </text>
+      <view>
+        <input name="name" type="text" placeholder="请在此输入你的姓名" value="{{name}}" bindchange="bindnamechange"> 
+        </input>
+      </view>  
+  </view>
+  <view>
+    <text>
+      所在部门：
+    </text>
+       <view>
+         <input name="department" placeholder="请在此输入你的课题组" value="{{department}}" bindchange="binddepartmentchange">
+         </input>
+       </view>
+  </view>
+  <view>
+    <text>
+        联系电话:
+    </text>
+      <view>
+        <input name="tel" placeholder="请在此输入你的电话号码" value="{{tel}}" bindchange="bindtelchange">
+        </input>
+      </view>
+  </view>
+  <view>
+    <text>
+      选择预约日期：
+    </text>
+      <picker name="order_date" mode="date" value="{{order_date}}" start="2018-01-01" end="2028-01-01" bindchange="bindDateChange">
+        <view>
+          {{order_date}}
+        </view>
+      </picker>
+  </view>
+  <view>
+    <text>
+      选择预约时间：
+    </text>
+      <picker name="start_time" mode="time" value="{{start_time}}" start="09:00" end="22:00" bindchange="bindTimeChange1">
+        <view>
+          开始时间:{{start_time}}
+        </view>
+      </picker>
+      <picker name="end_time" mode="time" value="{{end_time}}" start="09:00" end="22:00" bindchange="bindTimeChange2">
+          <view>
+            结束时间:{{end_time}} 
+          </view>
+      </picker>
+  </view>
+  <view>
+   <button class="yuyuetijiao"  bindtap="order_room" >
+     提交
+   </button>
+  </view>
+  <view>
+    <button class="yuyuechongzhi"  bindtap="order_reset">
+      重置 
+    </button>
+  </view>
+</view>
+  

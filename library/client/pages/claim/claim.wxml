@@ -1,0 +1,42 @@
+<view>
+  <view>
+    <text>
+      请选择查询日期
+    </text>
+  </view>
+  <view>
+    <picker name="order_date" mode="date" value="{{order_date}}" start="2018-01-01" end="2028-01-01" bindchange="selectDateChange">
+       <view>
+          {{order_date}}
+       </view>
+    </picker>
+  </view>
+  <button bindtap="query_room">
+    查询
+  </button>
+  <view class="list_container">
+    <view class="list_table">
+      <view class="list_tr">
+        <view class="list_th">序号</view>
+        <view class="list_th">预约人</view>
+        <view class="list_th">预约部门</view>
+        <view class="list_th">开始时间</view>
+        <view class="list_th">结束时间</view>
+      </view>        
+      <view class="list_sytle" wx:for="{{query_list}}">
+        <view class="list_td">{{index+1}}</view>
+        <view class="list_td">{{query_list[index].name}}</view>
+        <view class="list_td">{{query_list[index].department}}</view>
+        <view class="list_td">{{query_list[index].start_time}}</view>
+        <view class="list_td">{{query_list[index].end_time}}</view>
+      </view>
+    </view>
+  </view>
+    <!--<view class="list_sytle" wx:for="{{query_list}}">
+     {{index+1}}:{{query_list[index].name}},
+     {{query_list[index].department}},
+     {{query_list[index].start_time}}-
+     {{query_list[index].end_time}}
+    </view>
+    -->
+</view>

@@ -1,0 +1,41 @@
+/* pages/communicate/communicate.wxss */
+.woyelaishuoliangju{
+  border: 2rpx solid gray;
+  height: 200rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  font-size: 30rpx;
+}
+
+.tijiaopinglun{
+  float:left;
+  margin-right: 40rpx;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+}
+
+.lianxiren{
+ /* text-align: right;*/
+  margin-top: 100rpx;
+  margin-left: 20rpx;
+}
+
+.common{
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+}
+
+.jiaoliupingtai{
+  width: 750rpx;
+  height: 600rpx；
+}
+
+.lianxidianhua{
+  margin-left: 20rpx;
+  margin-top: 10rpx;
+}
+
+.lianxiyouxiang{
+  margin-left: 20rpx;
+  margin-top: 10rpx;
+}

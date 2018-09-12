@@ -1,0 +1,14 @@
+<image class="shiyongxuzhi" src="{{imageSrc4}}"></image>
+<view class="guizhangfont">GIBH图书馆规章制度</view>
+<scroll-view scroll-y="ture">
+ <view> 一、请爱护室内的图书资料与公共设施设备。</view>
+<view> 二、保持室内安静，读者进入馆内请将通讯设备调至振动或静音状态。</view>
+ <view> 三、保持室内清洁，禁止乱扔纸屑等杂物。</view>
+ <view> 四、严禁携带易燃，易爆，有毒等危险物品入馆。</view>
+ <view> 五、禁止携带零食，饮料等食品进入图书馆，禁止在图书馆内就餐。</view>
+ <view> 六、禁止长时间占座，禁止在图书馆内过夜。</view>
+ <view> 七、使用自助机还书时，按照相关指引进行操作。</view>
+ <view> 八、在自助机上未能成功还书，请到服务台办理相关手续。</view>
+ <view> 九、借出的图书须经自助机，完成借出操作后方可带图书馆离开本室。如遇到防盗仪报警，请配合管理员进行检查。</view>
+<view> 十、此借阅证全广州图书馆通用，可通借通还，欢迎各位读者到其他图书馆借书，在我院分馆还书。</view>
+</scroll-view>

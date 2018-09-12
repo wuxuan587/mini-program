@@ -1,0 +1,29 @@
+/* pages/claim/claim.wxss */
+.list_sytle,.list_tr{
+ display: -webkit-flex;
+ font-size: 30rpx;
+ text-align: justify;
+}
+
+.list_time{
+  text-align: right
+}
+
+.list_th,.list_td{
+  padding:10rpx;
+  border-bottom:1px solid #dadada;
+  border-right: 1px solid #dadada;
+  text-align: center;
+  width: 100%
+}
+
+.list_table{
+  border:1px solid #dadada;
+  border-right:0;
+  border-bottom:0;
+  width:98%;
+}
+
+.list_container{
+  font-size: 30rpx;
+}

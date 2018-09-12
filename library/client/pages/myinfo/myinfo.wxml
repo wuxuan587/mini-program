@@ -1,0 +1,47 @@
+<view>
+  <text>
+    已预约人姓名：
+  </text>
+    <view>
+      <input name="name" type="text" placeholder="请在此输入你需修改的预约记录填写的姓名" value="{{name}}" bindchange="bindnamechange_delete"> 
+      </input>
+    </view>  
+  <view>
+    <text>
+      已预约日期：
+    </text>
+    <picker name="order_date" mode="date" value="{{order_date}}" start="2018-01-01" end="2028-01-01" bindchange="bindDateChange_delete">
+      <view>
+        {{order_date}}
+      </view>
+    </picker>
+  </view>
+  <view>
+     <text>
+        已预约开始时间：
+     </text>
+      <picker name="start_time" mode="time" value="{{start_time}}" start="09:00" end="22:00" bindchange="bindTimeChange1_delete">
+        <view>
+          开始时间:{{start_time}}
+        </view>
+      </picker>
+  </view>
+  <button bindtap="find_room">
+    查询
+  </button>
+  <button bindtap="delete_room">
+    删除此条预约记录
+  </button>
+  <button bindtap="quit">
+    退出登录
+  </button>
+  <view wx:for="{{find_list}}">
+    {{index+1}}:
+    {{find_list[index].name}},
+    {{find_list[index].department}},
+    {{find_list[index].tel}},
+    {{find_list[index].order_date}},
+    {{find_list[index].start_time}},
+    {{find_list[index].end_time}}
+  </view>
+</view>

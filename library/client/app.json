@@ -1,0 +1,56 @@
+{
+  "pages":[
+    "pages/login/login",
+    "pages/firstpage/firstpage",
+    "pages/module/module",
+    "pages/order/order",
+    "pages/one/one",
+    "pages/subscribe/subscribe",
+    "pages/claim/claim",
+    "pages/communicate/communicate",
+    "pages/index/index",
+    "pages/addCgi/addCgi",
+    "pages/myinfo/myinfo",
+    "pages/register/register",
+    "pages/forgetpw/forgetpw",
+    "pages/visit/visit",
+    "pages/test/test"
+  ],
+  "window":{
+    "backgroundColor":"#F6F6F6",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#FF0000",
+    "list": 
+    [ {
+      "text": "首页",
+      "pagePath": "pages/firstpage/firstpage",
+      "iconPath": "image/首页.jpg",
+      "selectedIconPath": "image/首页.jpg"
+       },
+       {
+        "text": "预约调整",
+        "pagePath": "pages/myinfo/myinfo",
+        "iconPath": "image/我的.png",
+        "selectedIconPath": "image/我的.png"
+       },
+       {
+         "text": "交流平台",
+         "pagePath": "pages/communicate/communicate",
+         "iconPath": "image/交流平台.jpg",
+         "selectedIconPath": "image/交流平台.jpg"
+        },
+        {
+          "text": "使用须知",
+          "pagePath": "pages/module/module",
+          "iconPath": "image/使用须知.jpg",
+          "selectedIconPath": "image/使用须知.jpg"
+        }
+      ]
+    }
+}

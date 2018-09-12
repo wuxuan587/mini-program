@@ -1,0 +1,33 @@
+<view class="login_tab">
+    <text>
+        用户名:
+    </text>
+        <input name="username" type="text" placeholder="请输入你的用户名" value="{{username}}" bindchange="bindregisteruserchange"></input>
+</view>
+<view>
+    <text>
+        密码:
+    </text>
+        <input name="password1" type="text" password="True" placeholder="请输入你的密码" value="{{password1}}" bindchange="bindregisterpd1change"></input> 
+</view> 
+<view>
+    <text>
+        确认密码:
+    </text>
+        <input name="password2" type="text" password="True" placeholder="请再次输入你的密码" value="{{password2}}" bindchange="bindregisterpd2change"></input> 
+</view> 
+<view>
+    <text>
+        邮箱:
+    </text>
+        <input name="email" type="text" placeholder="请输入你的邮箱" value="{{email}}" bindchange="bindemailchange"></input> 
+</view>
+<button bindtap="test_key">
+  检测用户名是否重复
+</button>
+<button bindtap="register_key">
+    注册
+</button>
+<button bindtap="reset_key">
+    重置
+</button>

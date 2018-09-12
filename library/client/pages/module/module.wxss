@@ -1,0 +1,8 @@
+.guizhangfont{
+  font-size: 50rpx;
+}
+
+.shiyongxuzhi{
+  width: 750rpx;
+  height: 600rpx；
+}

@@ -1,0 +1,10 @@
+{
+"pages": [
+  "pages/communicate/communicate"
+],
+
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTitleText": "交流平台",
+  "navigationBarTextStyle": "black"
+}

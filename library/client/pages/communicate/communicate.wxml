@@ -1,0 +1,21 @@
+<image class="jiaoliupingtai" src="{{imageSrc3}}">
+</image>
+  <view class="common"> 
+   您有什么意见与建议，请在下方评论区留言
+  </view>
+  <view  class="woyelaishuoliangju">
+    <input name='comment' type="text" placeholder="我也来说几句.." value="{{comment}}" bindchange="bindcommentchange" >
+    </input>
+  </view>
+<button class="tijiaopinglun" bindtap="tijiaopinglun" size="mini" >
+  提交
+</button>
+<view class="lianxiren">
+  联系人：覃筱楚
+</view>
+<view class="lianxidianhua">
+  联系电话：020-32093461
+</view>
+<view class="lianxiyouxiang">
+  联系邮箱:qin_xiaochu@gibh.ac.cn
+</view> 

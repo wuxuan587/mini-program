@@ -1,0 +1,7 @@
+<view class="Librarypage">GIBH图书馆小助手</view>
+<navigator url="../subscribe/subscribe">
+<image class="yantaotingyuyue" src="{{imageSrc1}}" style="opacity:{{0.5}}">研讨空间预约</image>
+</navigator>
+<navigator url="../claim/claim">
+<image class="yuyuechaxun" src="{{imageSrc2}}" style="opacity:{{0.5}}"> 预约情况查询</image>
+</navigator>

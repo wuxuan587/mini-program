@@ -1,0 +1,14 @@
+/* pages/subscribe/subscribe.wxss */
+.yantaokongjianyuyue{
+  width: 750rpx;
+  height: 600rpx；
+}
+
+.yuyuetijiao{
+  margin-top:20rpx;
+}
+
+.order_name{
+  margin-top: 20rpx;
+
+}
