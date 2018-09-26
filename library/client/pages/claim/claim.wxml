@@ -1,4 +1,16 @@
 <view>
+    <view>
+    <text>
+      请选择需要查询的会议室
+    </text>
+  </view>
+  <view>
+    <picker name="meeting_number" value="{{index}}" range ="{{array}}" bindchange="selectMeetingChange">
+       <view>
+          {{array[index]}}
+       </view>
+    </picker>
+  </view>
   <view>
     <text>
       请选择查询日期

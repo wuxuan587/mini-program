@@ -7,6 +7,15 @@ Page({
    */
   data: {
     query_list: [],
+    array: ["图书馆会议室","第一会议室", "第二会议室", "第三会议室", "第四会议室", "第五会议室", "第六会议室", "第七会议室"],
+    meeting_number:0,
+  },
+
+  selectMeetingChange: function (e) {
+    console.log(e.detail.value);
+    this.setData({
+      meeting_number: e.detail.value
+    });
   },
 
   selectDateChange: function (e) {
@@ -22,7 +31,7 @@ Page({
       url: 'https://wuxuan.xyz/wxapp/query_room_date/',
       method: 'GET',
       header: { 'content-type': 'application/json' },
-      data: { order_date: that.data.order_date },
+      data: { order_date: that.data.order_date,meeting_number:that.data.meeting_number },
       success: function (res) {
         console.log(res.data)
         that.setData({

@@ -30,6 +30,18 @@
   </view>
   <view>
     <text>
+      请选择需要预定的会议室
+    </text>
+  </view>
+  <view>
+    <picker name="meetingnumber" value="{{index}}" range ="{{array}}" bindchange="selectMeetingChange">
+       <view>
+          {{array[index]}}
+       </view>
+    </picker>
+  </view>
+  <view>
+    <text>
       选择预约日期：
     </text>
       <picker name="order_date" mode="date" value="{{order_date}}" start="2018-01-01" end="2028-01-01" bindchange="bindDateChange">

@@ -1,0 +1,21 @@
+.main-top{
+  height: 200rpx;
+  margin: 10rpx;
+  background-color: #5CACEE;
+  border-radius: 15rpx;
+  text-align: center;
+}
+
+.main-top-text{
+  font-size: 36rpx;
+  color: #ffffff;
+  line-height: 60rpx;
+}
+
+.main-next{
+  margin: 10rpx;
+}
+
+.main-center{
+  background-color: #DBDBdb;
+}

@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/sign_in/sign_in",
     "pages/login/login",
     "pages/firstpage/firstpage",
     "pages/module/module",
@@ -14,6 +15,7 @@
     "pages/register/register",
     "pages/forgetpw/forgetpw",
     "pages/visit/visit",
+    "pages/apply/apply",
     "pages/test/test"
   ],
   "window":{
@@ -33,6 +35,12 @@
       "iconPath": "image/首页.jpg",
       "selectedIconPath": "image/首页.jpg"
        },
+       {
+        "text": "科教天地",
+        "pagePath": "pages/apply/apply",
+        "iconPath": "image/student.png",
+        "selectedIconPath": "image/student.png"
+      },
        {
         "text": "预约调整",
         "pagePath": "pages/myinfo/myinfo",

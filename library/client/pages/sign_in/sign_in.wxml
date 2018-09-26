@@ -1,0 +1,64 @@
+<view>
+  <view class='main-top'>
+    <text class='main-top-text'>中国科学院\n广州生物医药与健康研究院\n新生入学信息录入</text>
+  </view>
+
+  <view class='main-next'>
+    <text>\n姓  名</text>
+      <view class='main-center'>
+        <input name="name" type="text" placeholder="请在此输入你的姓名" value="{{name}}" bindchange="bindnamechange"></input>
+      </view>
+  </view>
+  <view class='main-next'>
+    <text>\n性  别</text>
+      <view class='main-center'>
+        <input name="gender" type="text" placeholder="请在此输入你的性别" value="{{gender}}" bindchange="bindnamechange"></input>
+      </view>
+  </view>
+  <view class='main-next'>
+    <text>\n身 份 证 号 码</text>
+      <view class='main-center'>
+        <input name="IDnumber" type="text" placeholder="请在此输入你的身份证号码" value="{{IDnumber}}" bindchange="bindnamechange"></input>
+      </view>
+  </view>
+  <view class='main-next'>
+    <text>\n学 生 类 别</text>
+      <view class='main-center'>
+        <input name="schooltype" type="text" placeholder="请选择你的类别" value="{{schooltype}}" bindchange="bindnamechange"></input>
+      </view>
+  </view>
+  <view class='main-next'>
+    <text>\n来 源 高 校</text>
+      <view class='main-center'>
+        <input name="school" type="text" placeholder="请在此输入你的来源高校" value="{{school}}" bindchange="bindnamechange"></input>
+      </view>
+  </view>
+  <view class='main-next'>
+    <text>\n联 系 电 话</text>
+      <view class='main-center'>
+        <input name="telphonenumber" type="text" placeholder="请在此输入你的电话号码" value="{{telphonenumber}}" bindchange="bindnamechange"></input>
+      </view>
+  </view>
+  <view class='main-next'>
+    <text>\n邮  箱</text>
+      <view class='main-center'>
+        <input name="email" type="text" placeholder="请在此输入你的电子邮箱" value="{{email}}" bindchange="bindnamechange"></input>
+      </view>
+  </view>
+  <view class='main-next'>
+    <text>\n课 题 组</text>
+      <view class='main-center'>
+        <input name="group" type="text" placeholder="请在此输入你的课题组全称" value="{{group}}" bindchange="bindnamechange"></input>
+      </view>
+  </view>
+  <view class='main-next'>
+    <text>\n宿 舍 房 号</text>
+      <view  class='main-center'>
+        <input name="dormitory" type="text" placeholder="请在此输入你的宿舍号" value="{{dormitory}}" bindchange="bindnamechange"></input>
+      </view>
+  </view>
+  <button>提交</button>
+  <button>重置</button>
+
+
+</view>

@@ -4,8 +4,15 @@ Page({
    * 页面的初始数据
    */
   data: {
-    imageSrc1:"../../image/library_1.jpg",
-    imageSrc2:"../../image/GIBH_door.jpg"
+    name:"",
+    gender:"",
+    IDnumber:"",
+    schooltype:"",
+    school:"",
+    telphonenumber:"",
+    email:"",
+    group:"",
+    dormitory:"",
   },
 
   /**
